@@ -14,6 +14,10 @@ Vocalis is a voice command recognition system powered by Edge Impulse, designed 
   - Portable C++ library for integrating voice command recognition into custom applications
   - Edge Impulse model inference support
 
+## Edge Impulse Voice Recognition Model
+
+Vocalis uses a voice recognition model trained and optimized with Edge Impulse. Edge Impulse provides a powerful platform for collecting audio data, designing features (such as MFCCs), and training classifiers to recognize spoken commands. The resulting model is exported for embedded deployment, enabling real-time, offline inference directly on the ESP32 or in C++ applications. This approach ensures robust performance, low latency, and adaptability for custom voice commands.
+
 ## Model Optimization: EON™ Compiler & Quantized Inference
 
 Vocalis leverages the Edge Impulse EON™ Compiler for deployment, which provides the same model accuracy while significantly reducing memory and storage requirements—up to 40% less RAM and 46% less ROM compared to standard inference engines. This enables efficient, real-time voice command recognition on resource-constrained devices like the ESP32.
