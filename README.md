@@ -80,7 +80,3 @@ This project is licensed under the MIT License. See the source files for details
 - Edge Impulse for model and inferencing libraries
 - ESP32 Arduino Core
 - Python Flask
-
----
-
-Feel free to modify or expand this README as needed for your GitHub repository.
