@@ -18,7 +18,7 @@ Vocalis is a voice command recognition system powered by Edge Impulse, designed 
 
 - `Vocalis.ino`: ESP32 Arduino sketch for voice command recognition and web interface
 - `mic_web_interface.py`: Python Flask web app for recording, processing, and forwarding audio to ESP32
-- `dependencies/`: Directory containing required libraries (to be uploaded)
+- `dependencies`
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ Vocalis is a voice command recognition system powered by Edge Impulse, designed 
    - Edge Impulse inferencing library
    - ESP32 Arduino core
    - FreeRTOS, I2S driver, WiFi, WebServer libraries
-   - (See `dependencies/` for all required libraries)
+   - Download `dependencies` Based on your Device: VoiceREC_Arduino_lib.rar is an Avr C code optimized for ESP32 devices , voicerec-cpp-lib.zip is a CPP library of the same trained Model
 
 4. **Usage**:
    - Start the ESP32; it will connect to WiFi and launch a web server
