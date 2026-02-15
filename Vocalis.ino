@@ -54,8 +54,8 @@
 #include <WebServer.h>
 
 /* WiFi credentials - update as needed */
-const char* ssid = "KebabiNet";
-const char* password = "MJ09981852364";
+const char* ssid = "SSID";
+const char* password = "Wifi_Pass";
 
 /* RGB LED Pins (PWM-capable GPIOs) */
 #define RED_PIN     12
@@ -564,3 +564,4 @@ static int i2s_deinit(void) {
 #if !defined(EI_CLASSIFIER_SENSOR) || EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_MICROPHONE
 #error "Invalid model for current sensor."
 #endif
+
