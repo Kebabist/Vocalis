@@ -38,6 +38,21 @@ For optimal performance, Vocalis uses quantized (int8) models instead of unoptim
 
 By deploying with EON™ Compiler and quantized models, Vocalis achieves efficient, offline voice command recognition with minimal latency and power consumption.
 
+Here’s a section you can add to your README to highlight the robustness, speed, and efficiency of the trained model:
+
+---
+
+## Robust, Lite, Fast, and Accurate Voice Recognition
+
+The Edge Impulse-trained model used in Vocalis is highly robust and lightweight, delivering fast and accurate voice command recognition even on minimal hardware like the ESP32. The model is optimized for embedded deployment, requiring very little RAM and flash memory, and achieves real-time inference with minimal latency.
+
+**Example Test Output:**
+- **DSP Processing:** 55 ms
+- **Classification:** 4 ms
+- **Total Latency:** ~59 ms
+- **Memory Usage:** Fits comfortably within ESP32 constraints
+- **Accuracy:** Consistently identifies commands with high confidence
+
 ## Project Structure
 
 - `Vocalis.ino`: ESP32 Arduino sketch for voice command recognition and web interface
